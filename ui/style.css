@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.moneyBox {
+    display: block;
+    background-color: rgba(33,55,68,255);
+    padding: 3vh;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    right: 38%;
+    top: 30%;
+    transition: 0.3s;
+}
+
+.header-money {
+    width: 100%;
+    height: 100%;
+}
+
+.money {
+    background-color: rgba(15,33,47,255);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    display: none;
+}
+
+textarea {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.full-container  {
+    background-color: black;
+    position: absolute;
+    width: 80.5%;
+    height: 80.5%;
+    left: 10.0%;
+    top: 10%;
+    display: none;
+}
+
+.header {
+    background-color: rgba(33,55,68,255);
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.lowheader {
+    background-color: rgba(33,55,68,255);
+    width: 100%;
+    height: 4%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    bottom: 0;
+}
+
+.container {
+    border-top: 3px solid rgba(15,33,47,255);
+    background-color: rgba(15,33,47,255);
+    width: 85%;
+    height: 86%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    bottom: 4%;
+}
+
+.sidebar {
+    border-top: 3px solid rgba(15,33,47,255);
+    border-bottom: 3px solid rgba(15,33,47,255);
+    background-color: rgba(33,55,68,255);
+    width: 15%;
+    height: 86%;
+    position: absolute;
+    display: flex;
+    bottom: 4%;
+}
+
+.header-title {
+    margin-left: 4vh;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.box {
+    border-radius: 25px;
+    width: 35vh;
+    height: 30vh;
+    background-color: rgba(33,55,68,255);
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    border-radius: 25px;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(33,55,68,255);
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    display: inline-block;
+}
+
+.img2 {
+    border-radius: 25px;
+    width: 60%;
+    margin-top: -10vh;
+    margin-left: 20vh;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65px;
+    margin-top: 35px;
+}
+
+.buy2 {
+    display: block;
+    width: 52.75vh;
+    padding: 20px;
+    margin-bottom: -20px;
+    margin-right: -19.5px;
+    background-color: rgb(30, 69, 100);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 900;
+    border-bottom-right-radius: 25px;
+    transition: background-color 0.5s;
+}
+
+.buy2:hover {
+    background-color: rgb(60, 89, 112);
+}
+
+.back2 {
+    display: block;
+    width: 52.75vh;
+    padding: 20px;
+    margin-bottom: -20px;
+    margin-left: -65px;
+    background-color: rgb(26, 59, 85);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 900;
+    border-bottom-left-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.back2:hover {
+    background-color: rgb(38, 58, 75);
+}
+
+.pricetag2 {
+    margin-top: -140px;
+    margin-left: 47vh;
+    letter-spacing: 3px;
+    color: #ccc;
+    font-size: 45px;
+    font-weight: 900;
+    cursor: default;
+}
+
+.label2 {
+    margin-top: 25px;
+    margin-left: 40px;
+    color: #ccc;
+    font-size: 40px;
+    font-weight: 900;
+    cursor: default;
+}
+
+.img {
+    margin-top: -50px;
+    border-radius: 25px;
+    width: 70%;
+}
+
+.pricetag {
+    margin-top: -70px;
+    letter-spacing: 2px;
+    color: #ccc;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: default;
+}
+
+.label {
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 26px;
+    font-weight: 900;
+    cursor: default;
+}
+
+.buy {
+    border: none;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 900;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 35vh;
+    height: 12vh;
+    background-color: rgb(30, 69, 100);
+    transition: 0.5s;
+}
+
+.buy:hover {
+    background-color: rgb(60, 89, 112);
+}
+
+.unlist {
+    border: none;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 900;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 35vh;
+    height: 12vh;
+    background-color: rgb(30, 69, 100);
+    transition: 0.5s;
+}
+
+.unlist:hover {
+    background-color: rgb(60, 89, 112);
+}
+
+.wrapper {
+    right: 20%;
+    width: 98%;
+    height: 96%;
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.close {
+    background-color: rgba(15,33,47,255);
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    height: 5vh;
+    width: 20vh;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.close:hover {
+    background-color: rgb(21, 42, 58);
+    cursor: pointer;
+}
+
+.list {
+    background-color: rgba(15,33,47,255);
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    left: 8px;
+    top: 40px;
+    height: 5vh;
+    width: 20vh;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.list:hover {
+    background-color: rgb(21, 42, 58);
+    cursor: pointer;
+}
+
+.mylisted {
+    background-color: rgba(15,33,47,255);
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    left: 8px;
+    top: 110px;
+    height: 9vh;
+    width: 20vh;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.mylisted:hover {
+    background-color: rgb(21, 42, 58);
+    cursor: pointer;
+}
+
+.back {
+    background-color: rgba(15,33,47,255);
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    height: 5vh;
+    width: 20vh;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.back:hover {
+    background-color: rgb(21, 42, 58);
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 18px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgba(15,33,47,255);
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(33,55,68);
+    border-radius: 15px;
+    transition: 0.4s;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(42, 64, 77);
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+}
+
+input[type="number"]::placeholder {
+  color: #ccc;
+  font-size: 25px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #ccc;
+    font-size: 25px;
+  }
+  
+  input[type="text"]:focus {
+      outline: none;
+  }
+
+.listingheader {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgba(15,33,47,255);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 4px 2px;
+    width: 40vh;
+    height: 4.3vh;
+    position: absolute;
+    top: 1vh;
+    left: 4.3vh;
+}
+
+#quantityForm input[type="number"] {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgba(15,33,47,255);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 4px 2px;
+    width: 30vh;
+    height: 8vh;
+}
+
+#quantityForm input[type="text"] {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgba(15,33,47,255);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 4px 2px;
+    width: 30vh;
+    height: 8vh;
+}
+
+#item {
+    position: absolute;
+    bottom: 38vh;
+    left: 9vh;
+}
+
+#quantity {
+    position: absolute;
+    bottom: 27vh;
+    left: 9vh;
+}
+
+#price {
+    position: absolute;
+    bottom: 16vh;
+    left: 9vh;
+}
+
+.listingBox {
+    background-color: rgba(33,55,68,255);
+    border-radius: 10px;
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    bottom: 10%; 
+    left: 26%; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.moneyboxx {
+    background-color: #4CAF50;
+    color: #ccc;
+    font-size: 26px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#start {
+    background-color: rgb(30, 69, 100);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    height: 10vh;
+    width: 30vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 3vh;
+    left: 9vh;
+    transition: 0.5s;
+}
+
+#start:hover {
+    background-color: rgb(60, 89, 112);
+}
