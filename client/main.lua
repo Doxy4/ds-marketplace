@@ -143,7 +143,17 @@ RegisterNetEvent('ds-marketplace:client:openui', function(items, playerMoney, ow
 end)
 
 RegisterCommand(Config.Command, function()
+
+    if Config.CheckForItem then
+    local hasItem = Config.HasItem(Config.CheckItem)
+    if hasItem then
     TriggerEvent("ds-marketplace:client:getmoney")
+    else
+        QBCore.Functions.Notify("You dont have a ".. Config.CheckItem, "error")
+    end
+else
+    TriggerEvent("ds-marketplace:client:getmoney")
+end
 end)
 
 RegisterNetEvent('ds-marketplace:nomoney', function()
